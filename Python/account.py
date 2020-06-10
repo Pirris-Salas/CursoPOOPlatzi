@@ -1,10 +1,11 @@
 class Account:
-    id       = int
-    name     = str
-    document = str
-    email    = str
-    password = str
+    id         = int
+    name       = str
+    document   = str
+    email      = str
+    password   = str
 
-    def _init_(self, name, document):
-        self.name = name
-        self.document = document
+    def __init__(self, name, document):
+        self.name       = name
+        self.document   = document
+        
