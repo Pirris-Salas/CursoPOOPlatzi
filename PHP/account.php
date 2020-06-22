@@ -8,6 +8,20 @@ public $document;
 public $email;
 public $password;
 
+public function __construct($name , $document){
+
+$this->name = $name;
+$this->document = $document;
+
 }
+
+/* public function getDriver(){
+
+    return $this->name;
+    return $this->document;
+} */
+
+}
+
 
 ?>
