@@ -1,8 +1,8 @@
 <?php
 class Route{
     
-public $start = [];
-public $end = [];
+public $init = array();
+public $end = array();
 public $id;
 
 }
