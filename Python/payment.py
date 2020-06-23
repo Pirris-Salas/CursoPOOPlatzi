@@ -1,2 +1,5 @@
 class Payment:
-    id = int
+    paymentID = int
+
+    def __init__(self, paymentID):
+        self.paymentID = paymentID
