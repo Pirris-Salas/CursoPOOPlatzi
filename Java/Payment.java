@@ -1,5 +1,9 @@
 
 class Payment {
-Integer id;
+Integer paymentID;
+
+public Payment(Integer paymentID){
+this.paymentID = paymentID;
+}
 
 }
